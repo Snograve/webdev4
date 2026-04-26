@@ -1,0 +1,162 @@
+/* Базові налаштування */
+body {
+    font-family: 'Noto Sans', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #fdfcf6;
+}
+
+/* Пункт 7: Контейнер шириною 900px по центру */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Пункт 2: Хедер 350px з фоном кольору таблиці */
+header {
+    height: 350px;
+    background-color: #92400E; 
+    color: #FFFBEB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5em;
+}
+
+/* Пункт 3: Навігація в хедері */
+nav.top-menu ul {
+    list-style-type: none;
+    padding: 20px 0;
+    margin: 0;
+}
+
+nav.top-menu li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav.top-menu a {
+    text-decoration: none;
+    color: #FFFBEB;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+}
+
+nav.top-menu a:hover {
+    text-decoration: underline;
+}
+
+/* Пункт 4: Футер */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 25px 0;
+    margin-top: 40px;
+}
+
+/* Оформлення таблиць (з лаб 3) */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0;
+}
+
+th, td {
+    border: 1px solid #92400E;
+    padding: 12px;
+}
+
+th {
+    background-color: #92400E;
+    color: #FFFBEB;
+}
+
+tr:nth-child(even) {
+    background-color: #FFFBEB;
+}
+
+/* Пункт 6: Блоки робочої групи в рядок */
+.author-card {
+    display: inline-block;
+    width: 260px;
+    margin: 10px;
+    vertical-align: top;
+    text-align: center;
+    padding: 15px;
+    border: 1px solid #ddd;
+    background: #fff;
+}
+
+.author-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+/* Форма зворотного зв'язку */
+.admin-form {
+    background: #FFFBEB;
+    padding: 25px;
+    border: 2px solid #92400E;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input, .form-group select, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.submit-btn {
+    background: #92400E;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Пункт 8: Адаптивність до 768px */
+@media (max-width: 768px) {
+    header {
+        height: auto;
+        padding: 40px 10px;
+    }
+    nav.top-menu li {
+        display: block;
+        margin: 10px 0;
+    }
+    .author-card {
+        display: block;
+        width: 90%;
+        margin: 10px auto;
+    }
+    .container {
+        padding: 10px;
+    }
+}
