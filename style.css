@@ -55,7 +55,6 @@ nav.top-menu a:hover {
     text-decoration: underline;
 }
 
-/* Пункт 4: Футер */
 footer {
     background-color: #333;
     color: white;
@@ -64,7 +63,6 @@ footer {
     margin-top: 40px;
 }
 
-/* Оформлення таблиць (з лаб 3) */
 table {
     border-collapse: collapse;
     width: 100%;
@@ -85,7 +83,6 @@ tr:nth-child(even) {
     background-color: #FFFBEB;
 }
 
-/* Пункт 6: Блоки робочої групи в рядок */
 .author-card {
     display: inline-block;
     width: 260px;
@@ -105,7 +102,6 @@ tr:nth-child(even) {
     margin-bottom: 10px;
 }
 
-/* Форма зворотного зв'язку */
 .admin-form {
     background: #FFFBEB;
     padding: 25px;
@@ -141,7 +137,6 @@ tr:nth-child(even) {
     font-weight: bold;
 }
 
-/* Пункт 8: Адаптивність до 768px */
 @media (max-width: 768px) {
     header {
         height: auto;
